@@ -1,0 +1,80 @@
+* {
+  background-color: rgb(246, 236, 236);
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(154, 115, 42);
+  background-color: rgba(246, 246, 246, 0.656);
+  font-size: 70px;
+  text-decoration: none;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  border: 15px solid rgb(74, 124, 64);
+}
+
+.img1{
+  height: 700px;
+  width: 1302px;
+}
+
+/* Nav Bar Stuff */
+.topnav {
+  background-color: rgb(21, 53, 21);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 73.3px;
+  font-size: 20px;
+  background-color: rgb(9, 90, 6);
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(91, 147, 67);
+  color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

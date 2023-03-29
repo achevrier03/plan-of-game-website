@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(246, 236, 236);
+    margin: 0;
+}
+h1 {
+    color: rgb(154, 115, 42);
+    background-color: rgba(246, 246, 246, 0.656);
+    font-size: 70px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    border: 15px solid rgb(74, 124, 64);
+}
+
+.img1{
+    height: 700px;
+    width: 1302px;
+}
+
+/* Nav Bar Stuff */
+.topnav {
+    background-color: rgb(21, 53, 21);
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+.topnav a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 73.3px;
+    font-size: 20px;
+    background-color: rgb(9, 90, 6);
+    text-decoration: none;
+  }
+
+.topnav a:hover {
+    background-color: rgb(91, 147, 67);
+    color: rgb(255, 255, 255);
+  }
